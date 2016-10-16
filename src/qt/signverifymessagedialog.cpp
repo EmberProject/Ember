@@ -24,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Ember address (e.g. CaXqxzviQ73RQPMkvM7kEZXMmWuz7UHTwx)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Ember address (e.g. eH13UjuHSQ2wovNJucwSFg7nw7FNvE15Zt)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Ember address (e.g. CaXqxzviQ73RQPMkvM7kEZXMmWuz7UHTwx)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Ember address (e.g. eH13UjuHSQ2wovNJucwSFg7nw7FNvE15Zt)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter Ember signature"));
 #endif
 

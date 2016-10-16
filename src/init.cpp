@@ -396,8 +396,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     }
     ReadConfigFile(mapArgs, mapMultiArgs);
     // Add static ip of our nodes.
-    mapMultiArgs["-addnode"].push_back("addnode=173.24.153.52:11338");
-    mapMultiArgs["-addnode"].push_back("addnode=107.170.212.222:11338");
+    mapMultiArgs["-addnode"].push_back("addnode=104.236.150.155:10024");
 
     // ********************************************************* Step 3: parameter-to-internal-flags
 
