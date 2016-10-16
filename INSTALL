@@ -1,0 +1,9 @@
+Building Ember
+
+See doc/readme-qt.rst for instructions on building Ember QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Ember.
+
+See doc/build-*.txt for instructions on building Emberd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Ember.
